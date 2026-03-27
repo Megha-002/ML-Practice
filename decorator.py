@@ -30,7 +30,9 @@ logs = [
     {"message": "log2", "timestamp": datetime.now() - timedelta(minutes=10)},
     {"message": "log3", "timestamp": datetime.now() - timedelta(minutes=14)},
     {"message": "log4", "timestamp": datetime.now() - timedelta(minutes=12)},
-    {"message": "log5", "timestamp": datetime.now() - timedelta(minutes=3)}]
+    {"message": "log5", "timestamp": datetime.now() - timedelta(minutes=3)},
+    {"message": "log6", "timestamp": datetime.now() - timedelta(minutes=4)}]
  
 print(get_logs(logs))
+
  
